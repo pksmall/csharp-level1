@@ -61,7 +61,7 @@
 #endregion
 
 
-namespace csharp_level1_les01
+namespace lession01
 {
     class Program
     {
