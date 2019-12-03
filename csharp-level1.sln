@@ -3,27 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task02", "lession02\task02\task02.csproj", "{F0631EA2-EF80-4705-B903-F161D3E2DBDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task02", "lesson02\task02\task02.csproj", "{F0631EA2-EF80-4705-B903-F161D3E2DBDC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lession02", "lession02", "{E9F45C4E-B0B4-4699-B6A8-C3C180FD0970}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lesson02", "lesson02", "{E9F45C4E-B0B4-4699-B6A8-C3C180FD0970}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lession01", "lession01\lession01.csproj", "{A93D7F94-6E6B-4C3E-8583-91FEF59B9D68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lesson01", "lesson01\lesson01.csproj", "{A93D7F94-6E6B-4C3E-8583-91FEF59B9D68}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lession01", "lession01", "{458E59EE-2DF7-4CF9-9FAE-1118DEBDEF07}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lesson01", "lesson01", "{458E59EE-2DF7-4CF9-9FAE-1118DEBDEF07}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task01", "lession02\task01\task01.csproj", "{328C53B3-2BDA-412F-8C5C-ADB59E643CAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task01", "lesson02\task01\task01.csproj", "{328C53B3-2BDA-412F-8C5C-ADB59E643CAA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task03", "lession02\task03\task03.csproj", "{8BE91965-0C9A-4E79-A42B-A226E8777BB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task03", "lesson02\task03\task03.csproj", "{8BE91965-0C9A-4E79-A42B-A226E8777BB5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task04", "lession02\task04\task04.csproj", "{AA058B0D-8E9A-4267-98FE-9728E748D5E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task04", "lesson02\task04\task04.csproj", "{AA058B0D-8E9A-4267-98FE-9728E748D5E1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task05", "lession02\task05\task05.csproj", "{D2B426AE-EF15-4311-A646-B860AE9EFB8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task05", "lesson02\task05\task05.csproj", "{D2B426AE-EF15-4311-A646-B860AE9EFB8E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task06", "lession02\task06\task06.csproj", "{736971C7-67B6-483A-A8CA-A56C8636B3E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task06", "lesson02\task06\task06.csproj", "{736971C7-67B6-483A-A8CA-A56C8636B3E3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task07", "lession02\task07\task07.csproj", "{803DDB91-1108-4EA4-9DA1-E52F5AF6941E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task07", "lesson02\task07\task07.csproj", "{803DDB91-1108-4EA4-9DA1-E52F5AF6941E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "task06a", "lession02\task06a\task06a.vcxproj", "{37A8B56A-D311-43B2-A71A-51111A0BEA8D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "task06a", "lesson02\task06a\task06a.vcxproj", "{37A8B56A-D311-43B2-A71A-51111A0BEA8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
