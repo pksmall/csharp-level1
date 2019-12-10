@@ -98,17 +98,19 @@ namespace task0303
 
         public static int Nod(int x, int y)
         {
-            if (x == y)
+            int a = Math.Abs(x);
+            int b = Math.Abs(y);
+            if (a == b)
             {
-                return x;
+                return a;
             } else
             {
-                if (x > y)
+                if (a > b)
                 {
-                    return Nod(x-y, y);
+                    return Nod(a-b, b);
                 } else
                 {
-                    return Nod(x, y-x);
+                    return Nod(a, b-a);
                 }
             }
         }
