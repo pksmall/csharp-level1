@@ -27,11 +27,23 @@ namespace task0502
             {
                 Message message = new Message(File.ReadAllText(fileName, Encoding.UTF8));
                 message.task05a(3);
+
+                UseMethods.Print("------------");
                 UseMethods.Print(message.task05b('t'));
+
+                UseMethods.Print("------------");
                 UseMethods.Print("Find max words:");
                 message.task05c(true);
+
+                UseMethods.Print("------------");
                 UseMethods.Print("Use StringBuilder Class:");
                 message.task05d();
+
+                UseMethods.Print("------------");
+                foreach(var item in message.task05g())
+                {
+                    Console.WriteLine(item);
+                }
             }
             catch (Exception ex)
             {

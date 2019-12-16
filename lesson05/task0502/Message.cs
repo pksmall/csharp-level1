@@ -13,6 +13,7 @@ using UsefulMethods;
  *    - б) Удалить из сообщения все слова, которые заканчиваются на заданный символ.
  *    - в) Найти самое длинное слово сообщения.
  *    - г) Сформировать строку с помощью StringBuilder из самых длинных слов сообщения.
+ *    - д) Построить гистограмму встречаемости слов. Использовать для этих целей Dictionary
  *    - Продемонстрируйте работу программы на текстовом файле с вашей программой.
  */
 
@@ -51,15 +52,16 @@ namespace task0502
 
             foreach (string element in a)
             {
-                if (element.Length <= n && element.Length > 0 && Char.IsLetterOrDigit(element[0])) { 
-                    UseMethods.Print(element); 
+                if (element.Length <= n && element.Length > 0 && Char.IsLetterOrDigit(element[0]))
+                {
+                    UseMethods.Print(element);
                 }
             }
         }
 
-         /*
-          *  - б) Удалить из сообщения все слова, которые заканчиваются на заданный символ.
-          */ 
+        /*
+         *  - б) Удалить из сообщения все слова, которые заканчиваются на заданный символ.
+         */
         public string task05b(char ch)
         {
             string str = message;
@@ -139,6 +141,23 @@ namespace task0502
             }
 
             UseMethods.Print(bStr);
+        }
+
+        /* 
+         * - д) Построить гистограмму встречаемости слов.Использовать для этих целей Dictionary
+         */
+        public Dictionary<String, int> task05g()
+        {
+            string[] a = message.Split(delimiters, StringSplitOptions.None);
+
+            Dictionary<String, int> result = new Dictionary<string, int>();
+
+            foreach(var word in a)
+            {
+                if (!result.ContainsKey(word)) result.Add(word, 0);
+                result[word]++;
+            }
+            return result;
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text;
 
 /*
@@ -43,9 +44,21 @@ namespace UsefulMethods
         }
 
         /*
-         * Pause
-         *  ждем ввода символа
+         * Print 
+         *  int[] a - печатает массив
          */
+        public static void Print(int[] a)
+        {
+            foreach(int i in a) {
+                Console.Write($"'{i}' ");
+            }
+            Console.Write("\n");
+        }
+
+        /*
+            * Pause
+            *  ждем ввода символа
+            */
         static void Pause()
         {
             Console.ReadKey();
