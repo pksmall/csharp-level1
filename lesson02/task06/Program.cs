@@ -26,11 +26,25 @@ namespace task06
         static void Task06()
         {
             long minNumber = 1;
-            long maxNumber = 1000000000;
+            //long maxNumber = 1000000000;
+            long maxNumber = 1000000;
             long gns_amount = 0;
             long amountNumbers = 0;
 
-            Console.WriteLine("\nКоличество 'Хороших' чисел в интервале от 1 до 1 000 000 000");
+            /*            long i = 386;
+                        amountNumbers = CalculateNumbers(i);
+                        if ((i % amountNumbers) == 0)
+                        {
+                            Console.WriteLine("Good number {0:N0} {1:N0}", i, amountNumbers);
+
+                        }
+                        else
+                        {
+                            Console.WriteLine("Bad number {0:N0} {1:N0}", i, amountNumbers);
+
+                        }
+            */
+            Console.WriteLine("\nКоличество 'Хороших' чисел в интервале от 1 до {0:N0}", maxNumber);
             long ellapledTicks = DateTime.Now.Ticks;
             for (long i = minNumber; i < maxNumber; i++)
             {
@@ -56,8 +70,8 @@ namespace task06
             long count = 0;
             while (i > 0)
             {
+                count = count + i % 10;
                 i = i / 10;
-                count++;
             }
             return count;
         }

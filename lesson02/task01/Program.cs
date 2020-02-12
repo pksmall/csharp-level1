@@ -14,6 +14,10 @@ namespace task01
     {
         static void Main(string[] args)
         {
+            int a = 15;
+            int b = 6;
+            a %= b;
+            Console.WriteLine(a);
             Console.WriteLine("Min Number is {0}", Task01(13, 11, 11));
         }
 
